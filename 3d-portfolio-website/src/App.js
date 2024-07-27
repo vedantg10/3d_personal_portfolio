@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./components/Sections/Hero";
 import Skills from "./components/Sections/Skills";
+import Experience from "./components/Sections/Experience";
+import Education from "./components/Sections/Education";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -22,7 +24,9 @@ function App() {
         <Navbar />
         <Body>
           <Hero />
-          {/* <Skills /> */}
+          <Skills />
+          <Experience />
+          <Education />
         </Body>
       </BrowserRouter>
     </ThemeProvider>
