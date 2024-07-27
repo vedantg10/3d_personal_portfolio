@@ -46,6 +46,14 @@ const Date = styled.div`
     font-size: 10px;
   }
 `;
+const List = styled.ul`
+  padding-left: 20px;
+  list-style-type: disc;
+`;
+
+const ListItem = styled.li`
+  margin-bottom: 5px;
+`;
 
 const Description = styled.div`
   width: 100%;
@@ -120,7 +128,13 @@ const ExperienceCard = ({ experience }) => {
         </Body>
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience.desc}</Span>}
+        {experience?.desc && (
+          <List>
+            {experience.desc.split("\n").map((detail, index) => (
+              <ListItem key={index}>{detail}</ListItem>
+            ))}
+          </List>
+        )}
         {experience?.skills && (
           <>
             <br />

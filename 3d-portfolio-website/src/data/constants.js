@@ -3,6 +3,11 @@ import openAIlogo from "../images/openai.253x256.png";
 import tataCommunicationsLogo from "../images/tata-communications-seeklogo.png";
 import UofClogo from "../images/UofClogo1.png";
 import vitLogo from "../images/Vitlogo-Photoroom.jpg";
+import AiImageTitle from "../images/Generated_Image_52sinb52sinb52si.jpeg";
+import chatBotImageTtile from "../images/BotImage.jpeg";
+import AnalyzerImageTtitle from "../images/chronoImageAnalyzer.jpeg";
+import movieImageTitle from "../images/movie-search-app (1).jpg";
+import sinImage from "../images/sinimage.jpg";
 
 export const Bio = {
   name: "Vedant Gupta",
@@ -16,7 +21,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/vedantg10",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+    "https://drive.google.com/file/d/1pC7vz1alKU2g3nJtqsGvl1zSsfxz8w2s/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/vedant-g/",
   insta: "https://www.instagram.com/i_ved10/",
 };
@@ -246,9 +251,9 @@ export const experiences = [
     company: "University of Calgary",
     date: "Sept 2023 - Present",
     desc:
-      "• Conducted advanced research under Dr. Rushi Vyas on respiration and cough detection using smartphone capacitive touchpads; boosted detection accuracy.\n" +
-      "• Developed Python scripts for data acquisition, cleaning, and storage from sensors, optimizing data quality for analysis.\n" +
-      "• Applied signal processing and machine learning techniques (SVM, KNN, CNN) in Python, leveraging full-stack development skills to integrate models and maximize detection accuracy.",
+      "Conducted advanced research under Dr. Rushi Vyas on respiration and cough detection using smartphone capacitive touchpads; boosted detection accuracy.\n" +
+      "Developed Python scripts for data acquisition, cleaning, and storage from sensors, optimizing data quality for analysis.\n" +
+      "Applied signal processing and machine learning techniques (SVM, KNN, CNN) in Python, leveraging full-stack development skills to integrate models and maximize detection accuracy.",
     skills: ["Python", "Jupyter", "Scikit-learn", "matplotlib", "Pandas"],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
@@ -258,7 +263,9 @@ export const experiences = [
     role: "Graduate Teaching Assistant",
     company: "University of Calgary",
     date: "Jan 2023 - Apr 2024",
-    desc: "•	Managed and mentored 7 teams in CPSC 599: Introduction to Distributed Systems, providing feedback and guidance that enhanced project outcomes and skills through improved scalability and high availability•	Taught 60 students in ENSF 300: Software Engineering Practices for Data Management, covering Git, Python, and SQL. Managed grading and fostered collaboration, improving project success",
+    desc:
+      "Managed and mentored 7 teams in CPSC 599: Introduction to Distributed Systems, providing feedback and guidance that enhanced project outcomes and skills through improved scalability and high availability.\n" +
+      "Taught 60 students in ENSF 300: Software Engineering Practices for Data Management, covering Git, Python, and SQL. Managed grading and fostered collaboration, improving project success",
     skills: ["Python", "SQL", "Git", "System Design", "Distributed System"],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
@@ -267,8 +274,12 @@ export const experiences = [
     img: tataCommunicationsLogo,
     role: "Senior Software Engineer",
     company: "Tata Communications Limited",
-    date: "Jun 2018 - Jul 2022",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    date: "Jun 2021 - Jul 2022",
+    desc:
+      "Authored reusable components for a web application and collaborated with the operations team to integrate 4 enhanced functionalities, boosting usability and user experience by 50%.\n" +
+      "Applied Jest for automated testing in a monitoring web application, resulting in a 20% reduction in deployment issues and streamlined build processes.\n" +
+      "Conducted 3 weekly code reviews to ensure quality and team collaboration during feature development, bug fixes, and optimizations.\n" +
+      "Trained 5+ new joiners on the software development process, boosting overall team productivity and efficiency",
     skills: [
       "ReactJS",
       "Redux",
@@ -283,6 +294,31 @@ export const experiences = [
       "Python",
       "Grafana",
       "Jira",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
+  },
+  {
+    id: 3,
+    img: tataCommunicationsLogo,
+    role: "Software Engineer",
+    company: "Tata Communications Limited",
+    date: "Jun 2018 - Jul 2021",
+    desc:
+      "Designed an interactive and customizable visual web application using JavaScript D3.js, raising engagement by 40% by showcasing network devices and supporting customer insights discovery.\n" +
+      "Leveraged Chrome developer tools and advanced debugging techniques to identify and fix critical errors.\n" +
+      "Integrated front-end with back-end using ExpressJS, Node and REST APIs for seamless communication, and implemented secure user authentication and authorization with JWT, enhancing system security by 30%.\n" +
+      "Built CI/CD pipelines using Jenkins, Docker, and custom scripts - helping teams deploy more than 30 times a day",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Docker",
+      "MongoDB",
+      "Python",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
@@ -316,10 +352,9 @@ export const projects = [
     date: "Jun 2024 - Jul 2023",
     description:
       "Application for generating images using the DALL-E model with Streamlit. This project provides a user-friendly interface where users can input a description, and the app generates corresponding images in real-time.",
-    image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+    image: AiImageTitle,
     tags: ["Python3", "Streamlit", "OpenAI", "DALL-E model"],
-    category: "web app",
+    category: "ML/AI",
     github: "https://github.com/vedantg10/AI_imageGeneration",
     webapp: "https://aiimagegeneration-immeygtr2e5kuq9jngsyko.streamlit.app/",
   },
@@ -328,11 +363,10 @@ export const projects = [
     title: "Funny Chatbot Application",
     date: "Jun 2024 - Jul 2023",
     description:
-      "This repository contains a simple and entertaining chatbot application built with Streamlit. The Funny Chatbot App allows users to interact with a chatbot that generates humorous responses. It's a great way to have a laugh and see how creative chatbots can be!",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "This web application is a simple and entertaining chatbot application built with Streamlit. The Funny Chatbot App allows users to interact with a chatbot that generates humorous responses. It's a great way to have a laugh and see how creative chatbots can be!",
+    image: chatBotImageTtile,
     tags: ["Python3", "Streamlit", "OpenAI", "GPT-3"],
-    category: "web app",
+    category: "ML/AI",
     github: "hhttps://github.com/vedantg10/chatBot_Application",
     webapp: "https://chatbotapplication-lsk2fwbivkfqexkl9n5prl.streamlit.app/",
   },
@@ -342,8 +376,7 @@ export const projects = [
     date: "Jun 2024 ",
     description:
       "The project is to build a web application that can take a picture of a wristwatch and predict the brand of the wristwatch as well as the expected price if you were to sell it online. In order to do this I'm going to train two separate neural networks on a dataset scraped from the website chrono24.com.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    image: AnalyzerImageTtitle,
     tags: [
       "React",
       "Python3",
@@ -354,147 +387,34 @@ export const projects = [
       "matplotlib",
       "scikit-learn",
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    category: "ML/AI",
+    github: "https://github.com/vedantg10/Chrono_analyzer",
+    webapp: "https://github.com/vedantg10/Chrono_analyzer",
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Jan 2023",
+    title: "React Movie App",
+    date: "Apr 2022 - May 2022",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
+      "React Movie App that transforms the movie-search experience. Users effortlessly explore films by name, revealing cast details, IMDb ratings, and compelling plots.The website is designed to be user-friendly and visually appealing.",
+
+    image: movieImageTitle,
+    tags: ["React Js", "react-router", "MovieDB API", "Axios", "CSS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/vedantg10/react-movie-app",
+    webapp: "https://vedantg10.github.io/react-movie-app/",
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
+    title: "Social Insurance Number Generation",
     date: "Jan 2023 - Mar 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
-  {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      "Developed a web application that allows immigrants and citizens of Canada to generate their SOCIAL INSURANCE NUMBER.",
+    image: sinImage,
+    tags: ["Python", "jwt-token", "python-gui-tkinter"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    github: "https://github.com/vedantg10/SIN_GENERATION",
+    webapp: "https://github.com/vedantg10/SIN_GENERATION",
   },
 ];
 

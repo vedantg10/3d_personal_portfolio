@@ -130,13 +130,14 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/"> GeekForGeeks</NavLogo>
+        <NavLogo to="/"> Portfolio </NavLogo>
         <NavItems>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Contact">Contact</NavLink>
         </NavItems>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
@@ -159,6 +160,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
+            </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Contact">
+              Contact
             </NavLink>
             <GithubButton
               href={Bio.github}
