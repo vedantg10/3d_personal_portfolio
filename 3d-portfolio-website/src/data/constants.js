@@ -18,7 +18,7 @@ export const Bio = {
     "Frontend Developer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a dedicated software engineer with over 5+ years of experience in Full Stack Development, specializing in JavaScript, Python, and Linux. Currently pursuing an MSc in Software Engineering, I focus on machine learning models for detecting respiration and coughs using smartphone touchpads. With a passion for learning and a commitment to delivering high-quality results, I approach each project with a positive attitude and a growth mindset. I'm eager to take on new challenges and contribute meaningfully.",
   github: "https://github.com/vedantg10",
   resume:
     "https://drive.google.com/file/d/1pC7vz1alKU2g3nJtqsGvl1zSsfxz8w2s/view?usp=drive_link",
