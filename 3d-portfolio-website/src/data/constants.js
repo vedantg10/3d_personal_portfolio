@@ -367,7 +367,7 @@ export const projects = [
     image: chatBotImageTtile,
     tags: ["Python3", "Streamlit", "OpenAI", "GPT-3"],
     category: "ML/AI",
-    github: "hhttps://github.com/vedantg10/chatBot_Application",
+    github: "https://github.com/vedantg10/chatBot_Application",
     webapp: "https://chatbotapplication-lsk2fwbivkfqexkl9n5prl.streamlit.app/",
   },
   {

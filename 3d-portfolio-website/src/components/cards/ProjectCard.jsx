@@ -42,6 +42,7 @@ const Details = styled.div`
   gap: 0px;
   padding: 0px 2px;
 `;
+
 const Title = styled.div`
   font-size: 20px;
   font-weight: 600;
@@ -94,6 +95,11 @@ const Button = styled.a`
   font-weight: 600;
   text-align: center;
 `;
+const Btn = styled.div`
+  display: flex;
+  gap: 6rem;
+  margin-bottom: 1rem;
+`;
 
 const ProjectCard = ({ project }) => {
   return (
@@ -105,17 +111,14 @@ const ProjectCard = ({ project }) => {
         <Date>{project.date}</Date>
         <Description>{project.description}</Description>
       </Details>
-      <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
-        ))}
-      </Members>
-      <Button href={project.github} target="_blank">
-        View Code
-      </Button>
-      <Button href={project.github} target="_blank">
-        Live Demo
-      </Button>
+      <Btn>
+        <Button href={project.github} target="_blank">
+          View Code
+        </Button>
+        <Button href={project.webapp} target="_blank">
+          Live Demo
+        </Button>
+      </Btn>
     </Card>
   );
 };
