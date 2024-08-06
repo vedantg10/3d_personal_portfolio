@@ -8,6 +8,7 @@ import chatBotImageTtile from "../images/BotImage.jpeg";
 import AnalyzerImageTtitle from "../images/chronoImageAnalyzer.jpeg";
 import movieImageTitle from "../images/movie-search-app (1).jpg";
 import sinImage from "../images/sinimage.jpg";
+import tiktactoeImage from "../images/game-logo.png";
 
 export const Bio = {
   name: "Vedant Gupta",
@@ -21,7 +22,7 @@ export const Bio = {
     "I am a dedicated software engineer with over 5+ years of experience in Full Stack Development, specializing in JavaScript, Python, and Linux. Currently pursuing an MSc in Software Engineering, I focus on machine learning models for detecting respiration and coughs using smartphone touchpads. With a passion for learning and a commitment to delivering high-quality results, I approach each project with a positive attitude and a growth mindset. I'm eager to take on new challenges and contribute meaningfully.",
   github: "https://github.com/vedantg10",
   resume:
-    "https://drive.google.com/file/d/1pC7vz1alKU2g3nJtqsGvl1zSsfxz8w2s/view?usp=drive_link",
+    "https://drive.google.com/file/d/1IMQRsG3TJs1ftth9QmbYARzlZn8bjfl6/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vedant-g/",
   insta: "https://www.instagram.com/i_ved10/",
 };
@@ -406,6 +407,20 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Tic Tac Toe Game",
+    date: "July 2024 - Aug 2024",
+    description:
+      "A simple Tic Tac Toe game built using React, showcasing component-based architecture and state management for practice and learning. The game allows two players to take turns marking the board with 'X' and 'O'.",
+
+    image: tiktactoeImage,
+    tags: ["React Js", "react-state", "HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/vedantg10/Tic_Tac_Toe_Game",
+    webapp:
+      "https://66b136a608739c079951eb1a--stellular-starship-0be729.netlify.app/",
+  },
+  {
+    id: 3,
     title: "Social Insurance Number Generation",
     date: "Jan 2023 - Mar 2023",
     description:
