@@ -9,6 +9,8 @@ import AnalyzerImageTtitle from "../images/chronoImageAnalyzer.jpeg";
 import movieImageTitle from "../images/movie-search-app (1).jpg";
 import sinImage from "../images/sinimage.jpg";
 import tiktactoeImage from "../images/game-logo.png";
+import investmentImage from "../images/investment-calculator-logo.png";
+import projectManagementImage from "../images/no-projects.png";
 
 export const Bio = {
   name: "Vedant Gupta",
@@ -407,6 +409,19 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Project Management Application",
+    date: "Aug 2024",
+    description:
+      "A simple and intuitive Project Management application built using React.js. This app focuses on helping users manage projects and their associated tasks in a streamlined way",
+
+    image: projectManagementImage,
+    tags: ["ReactJs", "react-router", "State Management", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/vedantg10/Project_Management_APP",
+    webapp: "https://wondrous-rugelach-d4c874.netlify.app/",
+  },
+  {
+    id: 3,
     title: "Tic Tac Toe Game",
     date: "July 2024 - Aug 2024",
     description:
@@ -420,7 +435,20 @@ export const projects = [
       "https://66b136a608739c079951eb1a--stellular-starship-0be729.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
+    title: "Investment Calculator",
+    date: "July 2024 - Aug 2024",
+    description:
+      "The React Investment Calculator is a user-friendly web application that helps users calculate the future value of their investments. By entering details such as the initial investment, annual contributions, expected return rate, and investment duration, users can instantly see the projected growth of their investments.",
+
+    image: investmentImage,
+    tags: ["React Js", "react-state", "HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/vedantg10/Investment_Calculator",
+    webapp: "https://transcendent-kleicha-f67382.netlify.app/",
+  },
+  {
+    id: 5,
     title: "Social Insurance Number Generation",
     date: "Jan 2023 - Mar 2023",
     description:
